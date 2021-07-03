@@ -74,6 +74,10 @@ Node *turnRight(Node *root)
     B->right = root;
     return B;
 }
+void printMe()
+{
+    cout << "Hello World";
+}
 Node *turnLeft(Node *root)
 {
 
